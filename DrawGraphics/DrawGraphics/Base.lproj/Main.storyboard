@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="DrawGraphics" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="rGO-om-nQT">
+                                <rect key="frame" x="16" y="44" width="358" height="766"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="cYw-H2-H0n">
+                                        <rect key="frame" x="0.0" y="0.0" width="358" height="40"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9PA-kT-IK4">
+                                                <rect key="frame" x="0.0" y="0.0" width="71.666666666666671" height="40"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="40" id="AfU-mG-RoH"/>
+                                                </constraints>
+                                                <state key="normal" title="선"/>
+                                                <connections>
+                                                    <action selector="btnDrawLine:" destination="BYZ-38-t0r" eventType="touchUpInside" id="agg-Lg-TXe"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="szm-ye-zzl">
+                                                <rect key="frame" x="71.666666666666657" y="0.0" width="71.666666666666657" height="40"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="40" id="kT4-Xq-Yg5"/>
+                                                </constraints>
+                                                <state key="normal" title="사각형"/>
+                                                <connections>
+                                                    <action selector="btnDrawRectangle:" destination="BYZ-38-t0r" eventType="touchUpInside" id="v4R-jP-onV"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3nD-p1-hct">
+                                                <rect key="frame" x="143.33333333333334" y="0.0" width="71.333333333333343" height="40"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="40" id="SEp-KZ-TuE"/>
+                                                </constraints>
+                                                <state key="normal" title="원"/>
+                                                <connections>
+                                                    <action selector="btnDrawCircle:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5DT-6O-Rbj"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jx9-Db-YT7">
+                                                <rect key="frame" x="214.66666666666666" y="0.0" width="71.666666666666657" height="40"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="40" id="vBR-V8-VjX"/>
+                                                </constraints>
+                                                <state key="normal" title="호"/>
+                                                <connections>
+                                                    <action selector="btnDrawArc:" destination="BYZ-38-t0r" eventType="touchUpInside" id="N70-d3-3hN"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LLO-Nb-7gJ">
+                                                <rect key="frame" x="286.33333333333331" y="0.0" width="71.666666666666686" height="40"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="40" id="x9e-cd-N40"/>
+                                                </constraints>
+                                                <state key="normal" title="채우기"/>
+                                                <connections>
+                                                    <action selector="btnDrawFill:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WxA-Ei-6Ih"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="2DR-GW-zqh">
+                                        <rect key="frame" x="0.0" y="40" width="358" height="726"/>
+                                    </imageView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="rGO-om-nQT" secondAttribute="trailing" constant="16" id="2pF-mr-TWE"/>
+                            <constraint firstItem="rGO-om-nQT" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="3PT-ry-6bN"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="rGO-om-nQT" secondAttribute="bottom" id="IqS-jh-fwW"/>
+                            <constraint firstItem="rGO-om-nQT" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="lbA-1B-iGB"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imgView" destination="2DR-GW-zqh" id="Nx2-dL-FAk"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="20" y="94"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
