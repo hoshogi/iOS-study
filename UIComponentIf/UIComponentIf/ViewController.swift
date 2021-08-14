@@ -8,25 +8,24 @@
 import UIKit
 
 class ViewController: UIViewController {
-    var isBackSide = true
-    
     @IBOutlet weak var imageView: UIImageView!
+    @IBOutlet weak var onOffSwitch: UISwitch!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
-    @IBAction func buttonClicked(_ sender: Any) {
+    
+    @IBAction func onOffSwitchValueChanged(_ sender: Any) {
         // animation 추가
         UIView.transition(with: imageView, duration: 0.6, options: .transitionFlipFromLeft) {
-            if self.isBackSide {
+            if self.onOffSwitch.isOn {
                 self.imageView.image = UIImage(named: "ace")
             } else {
                 self.imageView.image = UIImage(named: "poker")
             }
         } completion: { (animated) in
-            self.isBackSide = !self.isBackSide
+            
         }
     }
 }
