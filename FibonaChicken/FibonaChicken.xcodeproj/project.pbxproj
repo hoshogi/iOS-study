@@ -1,0 +1,352 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E399E8FF26CD40F1002AEDED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E399E8FE26CD40F1002AEDED /* AppDelegate.swift */; };
+		E399E90126CD40F1002AEDED /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E399E90026CD40F1002AEDED /* SceneDelegate.swift */; };
+		E399E90326CD40F1002AEDED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E399E90226CD40F1002AEDED /* ViewController.swift */; };
+		E399E90626CD40F1002AEDED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E399E90426CD40F1002AEDED /* Main.storyboard */; };
+		E399E90826CD40F2002AEDED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E399E90726CD40F2002AEDED /* Assets.xcassets */; };
+		E399E90B26CD40F2002AEDED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E399E90926CD40F2002AEDED /* LaunchScreen.storyboard */; };
+		E399E91326CE172C002AEDED /* ChickenInputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E399E91226CE172C002AEDED /* ChickenInputViewController.swift */; };
+		E399E91526CE1745002AEDED /* ChickenOutputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E399E91426CE1745002AEDED /* ChickenOutputViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E399E8FB26CD40F1002AEDED /* FibonaChicken.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FibonaChicken.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E399E8FE26CD40F1002AEDED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E399E90026CD40F1002AEDED /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E399E90226CD40F1002AEDED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E399E90526CD40F1002AEDED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E399E90726CD40F2002AEDED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E399E90A26CD40F2002AEDED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E399E90C26CD40F2002AEDED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E399E91226CE172C002AEDED /* ChickenInputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChickenInputViewController.swift; sourceTree = "<group>"; };
+		E399E91426CE1745002AEDED /* ChickenOutputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChickenOutputViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E399E8F826CD40F1002AEDED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E399E8F226CD40F1002AEDED = {
+			isa = PBXGroup;
+			children = (
+				E399E8FD26CD40F1002AEDED /* FibonaChicken */,
+				E399E8FC26CD40F1002AEDED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E399E8FC26CD40F1002AEDED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E399E8FB26CD40F1002AEDED /* FibonaChicken.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E399E8FD26CD40F1002AEDED /* FibonaChicken */ = {
+			isa = PBXGroup;
+			children = (
+				E399E8FE26CD40F1002AEDED /* AppDelegate.swift */,
+				E399E90026CD40F1002AEDED /* SceneDelegate.swift */,
+				E399E90226CD40F1002AEDED /* ViewController.swift */,
+				E399E90426CD40F1002AEDED /* Main.storyboard */,
+				E399E90726CD40F2002AEDED /* Assets.xcassets */,
+				E399E90926CD40F2002AEDED /* LaunchScreen.storyboard */,
+				E399E90C26CD40F2002AEDED /* Info.plist */,
+				E399E91226CE172C002AEDED /* ChickenInputViewController.swift */,
+				E399E91426CE1745002AEDED /* ChickenOutputViewController.swift */,
+			);
+			path = FibonaChicken;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E399E8FA26CD40F1002AEDED /* FibonaChicken */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E399E90F26CD40F2002AEDED /* Build configuration list for PBXNativeTarget "FibonaChicken" */;
+			buildPhases = (
+				E399E8F726CD40F1002AEDED /* Sources */,
+				E399E8F826CD40F1002AEDED /* Frameworks */,
+				E399E8F926CD40F1002AEDED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FibonaChicken;
+			productName = FibonaChicken;
+			productReference = E399E8FB26CD40F1002AEDED /* FibonaChicken.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E399E8F326CD40F1002AEDED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					E399E8FA26CD40F1002AEDED = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = E399E8F626CD40F1002AEDED /* Build configuration list for PBXProject "FibonaChicken" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E399E8F226CD40F1002AEDED;
+			productRefGroup = E399E8FC26CD40F1002AEDED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E399E8FA26CD40F1002AEDED /* FibonaChicken */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E399E8F926CD40F1002AEDED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E399E90B26CD40F2002AEDED /* LaunchScreen.storyboard in Resources */,
+				E399E90826CD40F2002AEDED /* Assets.xcassets in Resources */,
+				E399E90626CD40F1002AEDED /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E399E8F726CD40F1002AEDED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E399E90326CD40F1002AEDED /* ViewController.swift in Sources */,
+				E399E8FF26CD40F1002AEDED /* AppDelegate.swift in Sources */,
+				E399E91526CE1745002AEDED /* ChickenOutputViewController.swift in Sources */,
+				E399E91326CE172C002AEDED /* ChickenInputViewController.swift in Sources */,
+				E399E90126CD40F1002AEDED /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E399E90426CD40F1002AEDED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E399E90526CD40F1002AEDED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E399E90926CD40F2002AEDED /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E399E90A26CD40F2002AEDED /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E399E90D26CD40F2002AEDED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E399E90E26CD40F2002AEDED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E399E91026CD40F2002AEDED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FibonaChicken/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hoshogi.FibonaChicken;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E399E91126CD40F2002AEDED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FibonaChicken/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hoshogi.FibonaChicken;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E399E8F626CD40F1002AEDED /* Build configuration list for PBXProject "FibonaChicken" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E399E90D26CD40F2002AEDED /* Debug */,
+				E399E90E26CD40F2002AEDED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E399E90F26CD40F2002AEDED /* Build configuration list for PBXNativeTarget "FibonaChicken" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E399E91026CD40F2002AEDED /* Debug */,
+				E399E91126CD40F2002AEDED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E399E8F326CD40F1002AEDED /* Project object */;
+}
