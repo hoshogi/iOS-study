@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E36ED25626E49FA3009565DA /* BountyInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36ED25526E49FA3009565DA /* BountyInfo.swift */; };
 		E3B324B826DA569A00CFADEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B324B726DA569A00CFADEC /* AppDelegate.swift */; };
 		E3B324BA26DA569A00CFADEC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B324B926DA569A00CFADEC /* SceneDelegate.swift */; };
 		E3B324BF26DA569A00CFADEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3B324BD26DA569A00CFADEC /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E36ED25526E49FA3009565DA /* BountyInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BountyInfo.swift; sourceTree = "<group>"; };
 		E3B324B426DA569A00CFADEC /* BountyList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BountyList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3B324B726DA569A00CFADEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E3B324B926DA569A00CFADEC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				E3B324C026DA569B00CFADEC /* Assets.xcassets */,
 				E3B324C226DA569B00CFADEC /* LaunchScreen.storyboard */,
 				E3B324C526DA569B00CFADEC /* Info.plist */,
+				E36ED25526E49FA3009565DA /* BountyInfo.swift */,
 			);
 			path = BountyList;
 			sourceTree = "<group>";
@@ -140,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E36ED25626E49FA3009565DA /* BountyInfo.swift in Sources */,
 				E3B324B826DA569A00CFADEC /* AppDelegate.swift in Sources */,
 				E3B324CC26DA5DB900CFADEC /* BountyViewController.swift in Sources */,
 				E3B324BA26DA569A00CFADEC /* SceneDelegate.swift in Sources */,

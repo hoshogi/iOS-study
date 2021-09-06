@@ -59,8 +59,7 @@
                                         </tableViewCellContentView>
                                         <connections>
                                             <outlet property="bountyLabel" destination="Ixl-mv-ZAn" id="Jpi-x4-uRQ"/>
-                                            <outlet property="imageVIew" destination="JvO-km-cla" id="hUv-AH-zsE"/>
-                                            <outlet property="imageView" destination="JvO-km-cla" id="RB7-xT-Lq8"/>
+                                            <outlet property="imgView" destination="JvO-km-cla" id="gea-Wr-Ueq"/>
                                             <outlet property="nameLabel" destination="BVb-WL-tva" id="lGT-xY-4tE"/>
                                         </connections>
                                     </tableViewCell>
